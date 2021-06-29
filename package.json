@@ -1,0 +1,31 @@
+{
+  "name": "apibuild",
+  "version": "1.0.0",
+  "description": "some study",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Vancios86/Fighting-MavenAPI.git"
+  },
+  "author": "Ion Albu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vancios86/Fighting-MavenAPI/issues"
+  },
+  "homepage": "https://github.com/Vancios86/Fighting-MavenAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.0",
+    "nodemon": "^2.0.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
